@@ -12,6 +12,7 @@ const config: StorybookConfig = {
     "@storybook/addon-essentials",
     "@chromatic-com/storybook",
     "@storybook/addon-interactions",   // Register the addon for interaction test
+    '@storybook/addon-coverage',
   ],
   framework: {
     name: "@storybook/react-vite",
