@@ -1,4 +1,4 @@
-# React + TypeScript + Vite + storybook
+# React + TypeScript + Vite + storybook + tailwindcss
 
 ## how to use project
 
