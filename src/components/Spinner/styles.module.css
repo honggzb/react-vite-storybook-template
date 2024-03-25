@@ -1,0 +1,23 @@
+.pos-center {
+  position: fixed;
+  top: calc(50% - 40px);
+  left: calc(50% - 40px);
+}
+
+.loader {
+  animation: spin 1.5s linear infinite;
+  border-radius: 50%;
+  width: 75px;
+  border: 10px solid #f3f3f3;
+  height: 75px;
+  border-top: 15px solid #3498db;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
