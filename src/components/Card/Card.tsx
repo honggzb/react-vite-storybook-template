@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { options } from './constants'
-import './Card1.css'
+import './Card.css'
 import ClassNames from 'ClassNames'
 
 const Card = ({
