@@ -1,0 +1,30 @@
+.card {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 12px 10px;
+  border: 1px solid tomato;
+  border-radius: 10px;
+  box-shadow: 10px;
+  transition: box-shadow 0.2s ease-in;
+}
+.color-primary {
+  color: white;
+  background-color: black;
+}
+.color-secondary {
+  color: red;
+  background-color: blue;
+}
+.size-sm {
+  min-height: 25px;
+}
+.size-lg {
+  min-height: 115px;
+}
+.is-clickable {
+  cursor: pointer;
+}
+.is-dragable {
+  cursor: grab;
+}
